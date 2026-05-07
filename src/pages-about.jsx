@@ -19,10 +19,10 @@ const AboutPage = () => (
         <h2 style={{ fontSize: 30, marginBottom: 20 }}>Una linea di ricerca che chiedeva un suo spazio.</h2>
         <div className="flex col gap-5">
           <p style={{ fontSize: 17, lineHeight: 1.7, color: "var(--ink-2)" }}>
-            MondoDem è uno spazio di riflessione politica sulle trasformazioni della democrazia. All'interno di quel percorso è emersa la necessità di una linea di lavoro dedicata all'intelligenza artificiale: un dominio che ha bisogno di strumenti propri, di un linguaggio rivolto sia agli addetti ai lavori sia a chi prende decisioni, e di un'attenzione continuativa più che episodica.
+            MondoDem è un'associazione di esperti di politica estera italiani di area progressista che si occupa di geopolitica. Lavorando sulle grandi linee di frattura internazionali — competizione tra potenze, ordine multilaterale, sovranità tecnologica europea — è emersa con crescente nitidezza la centralità dell'intelligenza artificiale: un dominio in cui si stanno ridisegnando equilibri di potere, capacità statuali e dipendenze industriali.
           </p>
           <p style={{ fontSize: 17, lineHeight: 1.7, color: "var(--ink-2)" }}>
-            Post/Human Policy Lab è la risposta a questa esigenza: un osservatorio-laboratorio che pubblica analisi, costruisce strumenti interattivi (la Bussola, l'Atlas, l'Impact Explorer) e ospita spazi deliberativi (l'Agora). Mantiene una propria identità editoriale e operativa, restando in dialogo costante con MondoDem.
+            Post/Human Policy Lab nasce per dare a questo dominio uno spazio dedicato, con strumenti propri e un'attenzione continuativa. Pubblica analisi, costruisce strumenti interattivi (la Bussola, l'Atlas, l'Impact Explorer) e ospita spazi deliberativi (l'Agora). Mantiene una propria identità editoriale e operativa, restando in dialogo costante con MondoDem.
           </p>
         </div>
       </div>
