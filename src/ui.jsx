@@ -20,7 +20,17 @@ const NavLink = ({ to, current, children }) => {
 const Header = ({ route }) => (
   <header className="site-header">
     <div className="container flex items-center justify-between" style={{ height: 64 }}>
-      <Logo />
+      <div className="flex items-center gap-4">
+        <Logo />
+        <a
+          href="https://www.mondodem.it/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="header-spinoff"
+        >
+          Spinoff di <strong>MondoDem</strong> <span aria-hidden="true">↗</span>
+        </a>
+      </div>
       <nav className="flex gap-6" style={{ alignItems: "center" }}>
         <NavLink to="/" current={route}>Home</NavLink>
         <NavLink to="/journal" current={route}>Journal</NavLink>
@@ -73,7 +83,7 @@ const Footer = ({ showMondodem }) => (
       <div className="flex justify-between items-center" style={{ fontSize: 12, color: "var(--ink-3)" }}>
         <div>© 2026 Post/Human Policy Lab. Tutti i contenuti rilasciati con licenza CC BY-SA 4.0 salvo diversa indicazione.</div>
         <div className="flex gap-4">
-          {showMondodem && <span>In dialogo con <a href="#" className="text-accent">MondoDem</a></span>}
+          {showMondodem && <span>Spinoff di <a href="https://www.mondodem.it/" target="_blank" rel="noopener noreferrer" className="text-accent">MondoDem ↗</a></span>}
           <a href="#" className="text-mute">Privacy</a>
           <a href="#" className="text-mute">Cookie</a>
           <a href="#" className="text-mute">RSS</a>

@@ -1,93 +1,51 @@
 // About page
 const AboutPage = () => (
   <main className="page-fade">
-    <section style={{ paddingTop: 80, paddingBottom: 56 }}>
-      <div className="container" style={{ maxWidth: 880 }}>
+    <section style={{ paddingTop: 80, paddingBottom: 48 }}>
+      <div className="container" style={{ maxWidth: 820 }}>
         <div className="eyebrow" style={{ marginBottom: 14 }}>Chi siamo</div>
-        <h1 style={{ fontSize: "clamp(36px, 4vw, 56px)" }}>Un laboratorio per ripensare l'AI come materia politica.</h1>
+        <h1 style={{ fontSize: "clamp(36px, 4vw, 56px)" }}>Uno spinoff di MondoDem dedicato all'intelligenza artificiale.</h1>
         <p className="lede" style={{ marginTop: 28 }}>
-          Post/Human Policy Lab è un osservatorio-laboratorio indipendente. Pubblica analisi, costruisce strumenti interattivi, ospita spazi deliberativi. Lavora per chi opera o vota nell'area del riformismo italiano di centro-sinistra e nell'alveo del Partito Popolare Europeo.
+          Post/Human Policy Lab nasce come progetto spinoff di <a href="https://www.mondodem.it/" target="_blank" rel="noopener noreferrer" className="text-accent">MondoDem ↗</a> per dedicare uno spazio specifico all'analisi dell'impatto politico, economico, sociale e geopolitico dell'intelligenza artificiale.
         </p>
       </div>
     </section>
 
     <hr className="rule-soft" />
 
-    <section style={{ paddingTop: 64, paddingBottom: 64 }}>
-      <div className="container" style={{ maxWidth: 880 }}>
-        <div className="eyebrow" style={{ marginBottom: 12 }}>Perché esiste</div>
-        <h2 style={{ fontSize: 32, marginBottom: 24 }}>Lo spazio del riformismo tecnologicamente alfabetizzato.</h2>
+    <section style={{ paddingTop: 56, paddingBottom: 56 }}>
+      <div className="container" style={{ maxWidth: 820 }}>
+        <div className="eyebrow" style={{ marginBottom: 12 }}>Da dove veniamo</div>
+        <h2 style={{ fontSize: 30, marginBottom: 20 }}>Una linea di ricerca che chiedeva un suo spazio.</h2>
         <div className="flex col gap-5">
           <p style={{ fontSize: 17, lineHeight: 1.7, color: "var(--ink-2)" }}>
-            In Italia e nello spazio riformista europeo esistono due spazi discorsivi dominanti sull'AI, entrambi insoddisfacenti: il techno-ottimismo divulgativo, che racconta l'AI come inevitabile e benefica; e il techno-allarmismo difensivo, che la tratta come minaccia da contenere con strumenti novecenteschi.
+            MondoDem è uno spazio di riflessione politica sulle trasformazioni della democrazia. All'interno di quel percorso è emersa la necessità di una linea di lavoro dedicata all'intelligenza artificiale: un dominio che ha bisogno di strumenti propri, di un linguaggio rivolto sia agli addetti ai lavori sia a chi prende decisioni, e di un'attenzione continuativa più che episodica.
           </p>
           <p style={{ fontSize: 17, lineHeight: 1.7, color: "var(--ink-2)" }}>
-            Lo spazio vuoto è quello del riformismo tecnologicamente alfabetizzato: un discorso che riconosce la portata sistemica delle trasformazioni in corso, le guarda senza isteria e senza entusiasmo, e prova a derivarne policy concrete coerenti con una tradizione di democrazia costituzionale, economia sociale di mercato, universalismo redistributivo moderato.
+            Post/Human Policy Lab è la risposta a questa esigenza: un osservatorio-laboratorio che pubblica analisi, costruisce strumenti interattivi (la Bussola, l'Atlas, l'Impact Explorer) e ospita spazi deliberativi (l'Agora). Mantiene una propria identità editoriale e operativa, restando in dialogo costante con MondoDem.
           </p>
         </div>
       </div>
     </section>
 
-    <section style={{ paddingTop: 32, paddingBottom: 64 }}>
-      <div className="container" style={{ maxWidth: 880 }}>
-        <div className="eyebrow" style={{ marginBottom: 12 }}>Valori</div>
-        <h2 style={{ fontSize: 32, marginBottom: 32 }}>Cinque principi che ci orientano.</h2>
-        <div className="flex col gap-5">
-          {[
-            { t: "Onestà epistemica", d: "Ogni affermazione ha uno status chiaro: fatto verificabile, proiezione probabilistica, opinione firmata, scenario ipotetico. Niente certezze che non sono tali." },
-            { t: "Accessibilità senza dumbing down", d: "Si spiegano i termini tecnici la prima volta. Non si rinuncia alla precisione per paura del lettore." },
-            { t: "Rifiuto del moralismo", d: "Si discutono trade-off, non si fanno sermoni. I lettori non sono da redimere, sono da informare e attrezzare." },
-            { t: "Diffidenza verso il consensus tech", d: "La narrativa dominante — accelerazionista o precauzionista — è sempre da interrogare. Le tesi scomode ma argomentate hanno priorità sulle convergenze comode." },
-            { t: "Pragmatismo istituzionale", d: "Il punto di arrivo è sempre cosa si può fare, con quali strumenti, in quale orizzonte. Le analisi che finiscono in generica denuncia hanno valore limitato." },
-          ].map((v, i) => (
-            <div key={i} className="flex gap-5">
-              <div className="mono" style={{ fontSize: 14, color: "var(--accent)", minWidth: 40, paddingTop: 4 }}>0{i + 1}</div>
-              <div>
-                <h4 style={{ marginBottom: 6 }}>{v.t}</h4>
-                <p className="text-mute" style={{ fontSize: 15 }}>{v.d}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+    <hr className="rule-soft" />
 
-    <section style={{ paddingTop: 32, paddingBottom: 64, background: "var(--bg-deep)", padding: "64px 0" }}>
-      <div className="container" style={{ maxWidth: 880 }}>
-        <div className="eyebrow" style={{ marginBottom: 12 }}>Rapporto con MondoDem</div>
-        <h2 style={{ fontSize: 28, marginBottom: 20 }}>Indipendenti, in dialogo.</h2>
-        <p style={{ fontSize: 16, lineHeight: 1.7, color: "var(--ink-2)" }}>
-          Post/Human Policy Lab è un progetto indipendente ispirato allo spirito di MondoDem e in dialogo con esso. Non è un'emanazione formale, non usa il brand MondoDem nel proprio logo, non ne condivide la governance. Ci sono cross-posting selettivi (in particolare la serie <em>Goodbye Human</em>), reciproche segnalazioni, possibili eventi congiunti.
+    <section style={{ paddingTop: 56, paddingBottom: 56 }}>
+      <div className="container" style={{ maxWidth: 820 }}>
+        <div className="eyebrow" style={{ marginBottom: 12 }}>A chi parliamo</div>
+        <h2 style={{ fontSize: 30, marginBottom: 20 }}>Riformismo tecnologicamente alfabetizzato.</h2>
+        <p style={{ fontSize: 17, lineHeight: 1.7, color: "var(--ink-2)" }}>
+          Il discorso pubblico sull'AI oscilla tra techno-ottimismo divulgativo e allarmismo difensivo. Lo spazio che cerchiamo di abitare è un altro: quello di un riformismo che riconosce la portata sistemica delle trasformazioni in corso, le guarda senza isteria e senza entusiasmo, e prova a derivarne policy concrete coerenti con una tradizione di democrazia costituzionale, economia sociale di mercato e universalismo redistributivo moderato.
         </p>
       </div>
     </section>
 
-    <section style={{ paddingTop: 64, paddingBottom: 64 }}>
-      <div className="container" style={{ maxWidth: 880 }}>
-        <div className="eyebrow" style={{ marginBottom: 12 }}>Cosa non siamo</div>
-        <h2 style={{ fontSize: 28, marginBottom: 24 }}>Per evitare drift.</h2>
-        <ul style={{ paddingLeft: 0, listStyle: "none" }}>
-          {[
-            "Un blog di opinione personale",
-            "Una testata di attualità tech generalista",
-            "Un canale di advocacy per una singola posizione politica",
-            "Un collettore di hot take su lancio di prodotti AI",
-            "Un sito di recensioni di strumenti AI",
-            "Un think tank aziendale mascherato da indie",
-          ].map((t, i) => (
-            <li key={i} className="flex gap-3" style={{ padding: "14px 0", borderBottom: "1px solid var(--rule-soft)", fontSize: 16 }}>
-              <span className="mono text-mute-2" style={{ minWidth: 32 }}>—</span>
-              <span style={{ color: "var(--ink-2)" }}>{t}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
+    <hr className="rule-soft" />
 
-    <section style={{ paddingTop: 32, paddingBottom: 96 }}>
-      <div className="container" style={{ maxWidth: 880 }}>
+    <section style={{ paddingTop: 56, paddingBottom: 96 }}>
+      <div className="container" style={{ maxWidth: 820 }}>
         <div className="eyebrow" style={{ marginBottom: 12 }}>Contatti</div>
-        <h2 style={{ fontSize: 28, marginBottom: 20 }}>Scrivici.</h2>
+        <h2 style={{ fontSize: 28, marginBottom: 24 }}>Scrivici.</h2>
         <div className="flex gap-8" style={{ flexWrap: "wrap" }}>
           <div>
             <div className="mono text-mute-2" style={{ fontSize: 11, letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 6 }}>Editoriale</div>
