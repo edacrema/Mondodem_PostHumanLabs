@@ -48,7 +48,7 @@ const HomePage = () => {
           <SectionHead
             eyebrow="Journal · Substack RSS"
             title="Ultimi articoli"
-            kicker="Cadenza 2-4 contenuti al mese. Cross-post selettivi con MEGATREND su temi geopolitici.">
+            kicker="Cadenza 2-4 contenuti al mese. Analisi, saggi brevi e scenari sull'impatto politico dell'AI.">
             <a href="#/journal" className="btn btn-ghost">Tutti gli articoli →</a>
           </SectionHead>
           <div style={{ display: "grid", gridTemplateColumns: "1.4fr 1fr", gap: 24, marginBottom: 24 }}>

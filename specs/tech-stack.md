@@ -66,8 +66,6 @@ Publication nativa del Lab. Tutti gli articoli live qui. Newsletter di iscrizion
 
 **Custom domain**: `posthumanlab.eu/journal` (piano Substack con custom domain, ~50€/anno o incluso in piano paid).
 
-**Cross-posting**: per i pezzi MEGATREND rilevanti (in particolare la serie *Goodbye Human*), si usa la funzione nativa di cross-post di Substack da Zetakappa → Post/Human Policy Lab. Zero pipeline, zero duplicazione, canonical gestito automaticamente.
-
 **Import su homepage**: la homepage del sito Astro legge il feed RSS pubblico di Substack a ogni build (ISR ogni 10 minuti via Vercel) e mostra gli ultimi N post come card. Non salva nulla — solo fetch e render.
 
 ### Backup sovranità

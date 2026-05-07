@@ -53,7 +53,7 @@ Competizione tra grandi potenze, warfare autonomo e AI militare, cybersecurity o
 Due componenti egualmente importanti:
 
 ### Componente analitica
-Articoli, saggi brevi, policy brief, scenari narrativi. Distribuiti via Substack (cross-postati anche su MEGATREND dove pertinente), sindacati sul sito del Lab. Firma esplicita, tono argomentativo, niente clickbait. Cadenza attesa: 2-4 contenuti al mese a regime.
+Articoli, saggi brevi, policy brief, scenari narrativi. Distribuiti via Substack, sindacati sul sito del Lab. Firma esplicita, tono argomentativo, niente clickbait. Cadenza attesa: 2-4 contenuti al mese a regime.
 
 ### Componente interattiva
 Il Lab è esplicitamente **non** una rivista online. Il sito è un luogo dove il lettore *fa* qualcosa: si colloca su una bussola di posizioni, interroga una mappa di stati, partecipa a una deliberazione collettiva, esplora l'impatto dell'AI sulla propria professione. I moduli interattivi sono sullo stesso piano editoriale degli articoli, non complementi decorativi.

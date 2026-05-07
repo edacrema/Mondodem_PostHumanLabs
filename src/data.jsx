@@ -32,7 +32,6 @@ const ARTICLES = [
     date: "21 Mar 2026",
     minutes: 9,
     tag: "Geopolitica",
-    crossPost: "MEGATREND",
   },
   {
     title: "L'AI nelle aule giudiziarie: tre scenari per la Cassazione",
